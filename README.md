@@ -1,4 +1,4 @@
-# Davemane42's Custom Node for [ComfyUI](https://github.com/comfyanonymous/ComfyUI)  
+# [Davemane42](https://github.com/Davemane42/ComfyUI_Dave_CustomNode)'s Custom Node for [ComfyUI](https://github.com/comfyanonymous/ComfyUI)  
 
 ## Instalation:
 
