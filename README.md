@@ -1,4 +1,5 @@
-# [Davemane42](https://github.com/Davemane42/ComfyUI_Dave_CustomNode)'s Custom Node for [ComfyUI](https://github.com/comfyanonymous/ComfyUI)  
+# MultiComposite Nodes for [ComfyUI](https://github.com/comfyanonymous/ComfyUI)  
+## originally by [Davemane42](https://github.com/Davemane42/ComfyUI_Dave_CustomNode)
 
 ## Instalation:
 
