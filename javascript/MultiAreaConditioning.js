@@ -179,7 +179,7 @@ function addMultiAreaConditioningCanvas(node, app) {
 		// Draw node isnt fired once the node is off the screen
 		// if it goes off screen quickly, the input may not be removed
 		// this shifts it off screen so it can be moved back if the node is visible.
-		for (let n in app.graph._nodes) {
+		/*for (let n in app.graph._nodes) {
 			n = graph._nodes[n];
 			for (let w in n.widgets) {
 				let wid = n.widgets[w];
@@ -188,7 +188,7 @@ function addMultiAreaConditioningCanvas(node, app) {
 					wid.canvas.style.position = "absolute";
 				}
 			}
-		}
+		}*/
 	};
 
 	node.onResize = function (size) {
