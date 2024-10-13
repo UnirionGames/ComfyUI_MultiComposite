@@ -3,7 +3,7 @@
 ## Instalation:
 
 - Navigate to the `/ComfyUI/custom_nodes/` folder
-- `git clone git clone https://github.com/Davemane42/ComfyUI_Dave_CustomNode`
+- `git clone https://github.com/UnirionGames/ComfyUI_MultiComposite`
 - Start ComfyUI
   - all require file should be downloaded/copied from there.
   - no need to manually copy/paste .js files anymore
@@ -56,8 +56,5 @@ Display what node is associated with current input selected
 
 ___
 # Known issues
-
-## MultiAreaComposition 2.4
-- 
 ## MultiLatentComposite 1.1
 - no check for out of bound layers
