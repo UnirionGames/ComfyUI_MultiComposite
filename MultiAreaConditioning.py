@@ -1,5 +1,5 @@
-# Made by Davemane42#0042 for ComfyUI
-# 02/04/2023
+# Made originally by Davemane42#0042, edit by Unirion for ComfyUI
+# originally 02/04/2023
 
 import torch
 from nodes import MAX_RESOLUTION
@@ -9,7 +9,7 @@ class MultiAreaConditioning:
         pass
 
     @classmethod
-    def INPUT_TYPES(cls):
+    def INPUT_TYPES(s):
         return {
             "required": {
                 "conditioning0": ("CONDITIONING", ),
@@ -21,11 +21,10 @@ class MultiAreaConditioning:
 
 
     RETURN_TYPES = ("CONDITIONING", "INT", "INT")
-    RETURN_NAMES = (None, "resolutionX", "resolutionY")
-    FUNCTION = "doStuff"
-    CATEGORY = "Davemane42"
+    FUNCTION = "composite"
+    CATEGORY = "MultiComposite"
 
-    def doStuff(self, extra_pnginfo, unique_id, **kwargs):
+    def composite(self, extra_pnginfo, unique_id, **kwargs):
 
         c = []
         values = []
@@ -89,7 +88,7 @@ class ConditioningUpscale():
         }
     
     RETURN_TYPES = ("CONDITIONING",)
-    CATEGORY = "Davemane42"
+    CATEGORY = "MultiComposite"
 
     FUNCTION = 'upscale'
 
@@ -124,7 +123,7 @@ class ConditioningStretch():
         }
     
     RETURN_TYPES = ("CONDITIONING",)
-    CATEGORY = "Davemane42"
+    CATEGORY = "MultiComposite"
 
     FUNCTION = 'upscale'
 
@@ -167,7 +166,7 @@ class ConditioningDebug():
 
     OUTPUT_NODE = True
 
-    CATEGORY = "Davemane42"
+    CATEGORY = "MultiComposite"
 
     def debug(self, conditioning):
         print("\nDebug")
